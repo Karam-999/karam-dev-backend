@@ -472,7 +472,7 @@ export interface ApiProjectProject extends Struct.CollectionTypeSchema {
   };
   attributes: {
     category: Schema.Attribute.Enumeration<
-      ['Frontend', 'Fullstack', 'Design', 'Mobile']
+      ['Frontend', 'Fullstack', 'Extensions', 'Mobile']
     > &
       Schema.Attribute.DefaultTo<'Frontend'>;
     createdAt: Schema.Attribute.DateTime;

@@ -40,7 +40,7 @@
       "enum": [
         "Frontend",
         "Fullstack",
-        "Design",
+        "Extensions",
         "Mobile"
       ]
     },
